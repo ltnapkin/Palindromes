@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        /*Css style stuff to make the page look more flashy!*/
+        body{
+            padding-top:175px;
+            text-align: center;
+            background-color: lightsteelblue;
+        }
+
+        h1{
+            padding-bottom:25px;
+            text-transform:uppercase;
+            text-shadow:inherit;
+            color:aliceblue;
+            font-size:70px;
+            font-family:'Ink Free';
+            outline-style:groove;
+            
+        }
+
+        button{
+            background-color:aliceblue;
+            border-top-color:darkgrey;
+        }
+
+        p{
+         color:aqua;
+         background-color:black;
+         border:dotted dodgerblue;
+        }
+
+    </style>
+
+    <meta charset="utf-8" />
+    <!-----This is so i can use my javascript coding-->
+    <script src="stringJavaCode.js">    </script>
+    <!--This is the title of the tab of the pages-->
+    <title>Palindrome Cheacker</title>
+</head>
+<body>
+    <!--A header so i can make the design of the page look better-->
+    <h1>Palindromes</h1>
+    <!--This is what i use to get the person input-->
+    <input id="userWord" type="text"> </input>
+    <!--this is use to grab the word or pharse the person types in-->
+    <button id ="checkWord "type="submit" onclick="checkIfBlank()">Palidrome Checker</button>
+    <p id="results">Found out if What you type can be a palindrome!</p>
+</body>
+</html>
